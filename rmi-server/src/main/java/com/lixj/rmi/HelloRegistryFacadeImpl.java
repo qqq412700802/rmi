@@ -1,7 +1,8 @@
-package com.lixj;
+package com.lixj.rmi;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
+
 
 public class HelloRegistryFacadeImpl extends UnicastRemoteObject implements HelloRegistryFacade {
 
